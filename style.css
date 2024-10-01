@@ -1,3 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playwrite+DE+Grund:wght@100..400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --chocolate: #4f000bff;
+    --vinho: #720026ff;
+    --rosa: #ce4257ff;
+    --creme: #ff7f51ff;
+    --amarelo-queimado: #ff9b54ff;
+    --fonte-titulo: "Oswald", sans-serif;
+    --fonte-texto:  "Playwrite DE Grund", cursive;
+}
+
+body{
+    background-color: var(--creme);
+    font-family: var(--fonte-texto);
+}
+
 h1{
     background-color: #9f2525;
 }

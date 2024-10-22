@@ -20,6 +20,22 @@ body{
     font-family: var(--fonte-texto);
 }
 
-h1{
-    background-color: #9f2525;
+.cabecalho{
+    background-color: var(--chocolate);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalho-img{
+    width: 10%;
+    margin: 1em;
+}
+
+.cabecalho-link{
+    text-decoration: none;
+    font-size: 2em;
+    color:var(--creme);
+    font-family: var(--fonte-titulo);
+    margin-right: 1em;
 }
